@@ -1,0 +1,59 @@
+/* ═══════════════════════════════════════════════════════════════
+   DESIGN TOKENS — Variáveis Globais do Sistema
+   Rodrigo Souza Feliciano · Portfólio Terminal Retro
+   ═══════════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Cores Neon ── */
+  --neon-green: #39ff14;
+  --neon-blue: #00f3ff;
+  --neon-magenta: #ff00ff;
+
+  /* ── Cores de Fundo ── */
+  --bg-dark: #050505;
+  --bg-terminal: rgba(5, 5, 5, 0.92);
+
+  /* ── Bloom / Glow Effects ── */
+  --bloom-green:
+    0 0 1px var(--neon-green),
+    -1px 0 2px rgba(57, 255, 20, 0.4),
+    1px 0 2px rgba(57, 255, 20, 0.4),
+    -3px 0 6px rgba(57, 255, 20, 0.2),
+    3px 0 6px rgba(57, 255, 20, 0.2);
+
+  --bloom-blue:
+    0 0 1px var(--neon-blue),
+    -1px 0 2px rgba(0, 243, 255, 0.4),
+    1px 0 2px rgba(0, 243, 255, 0.4),
+    -3px 0 6px rgba(0, 243, 255, 0.2),
+    3px 0 6px rgba(0, 243, 255, 0.2);
+
+  --bloom-magenta:
+    0 0 1px var(--neon-magenta),
+    -1px 0 2px rgba(255, 0, 255, 0.4),
+    1px 0 2px rgba(255, 0, 255, 0.4),
+    -3px 0 6px rgba(255, 0, 255, 0.2),
+    3px 0 6px rgba(255, 0, 255, 0.2);
+
+  /* ── Tipografia ── */
+  --font-terminal: 'VT323', monospace;
+  --font-heading: 'Press Start 2P', cursive;
+  --font-mono: 'Share Tech Mono', monospace;
+
+  /* ── Espaçamento ── */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+
+  /* ── Bordas ── */
+  --border-width: 2px;
+
+  /* ── Layout ── */
+  --max-width: 72rem;
+  --nav-height: 4.5rem;
+}
