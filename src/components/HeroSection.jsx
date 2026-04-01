@@ -93,7 +93,7 @@ export default function HeroSection() {
 
           {/* CTAs */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', paddingTop: '0.5rem' }}>
-            <a className="btn-retro" href="#download" onClick={(e) => { e.preventDefault(); alert('Em breve o PDF estará disponível!'); }} id="btn-download-cv">
+            <a className="btn-retro" href="/docs/Currículo - Rodrigo S. Feliciano.pdf" download="Currículo – Rodrigo S. Feliciano.pdf" id="btn-download-cv">
               <span className="material-symbols-outlined">download</span>
               BAIXAR_CURRICULO.PDF
             </a>

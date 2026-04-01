@@ -124,8 +124,8 @@ export default function ContactSection() {
 
             <a
               className="btn-retro btn-magenta"
-              href="#download"
-              onClick={(e) => { e.preventDefault(); alert('Em breve o PDF estará disponível!'); }}
+              href="/docs/Currículo - Rodrigo S. Feliciano.pdf"
+              download="Currículo – Rodrigo S. Feliciano.pdf"
               id="btn-download-cv-footer"
               style={{
                 fontSize: '1.3rem',
