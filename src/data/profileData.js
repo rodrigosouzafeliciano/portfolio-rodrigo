@@ -16,8 +16,8 @@ export const profile = {
 
 export const contato = {
   email: 'rodrigo.souza.f3liciano@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/rodrigo-souza-feliciano-312974374/',
-  linkedinLabel: 'linkedin.com/in/rodrigo-souza-feliciano',
+  linkedin: 'https://linkedin.com/in/rodrigosouzafeliciano',
+  linkedinLabel: 'linkedin.com/in/rodrigosouzafeliciano',
   github: 'https://github.com/rodrigosouzafeliciano',
   githubLabel: 'github.com/rodrigosouzafeliciano',
   whatsapp: 'https://wa.me/5548999263583',
