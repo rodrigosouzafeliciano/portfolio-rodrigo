@@ -86,14 +86,14 @@ export default function HeroSection() {
               fontWeight: 500,
             }}
           >
-            Transformando visões complexas em experiências digitais fluidas.
-            Especialista em ecossistemas React, mobile com React Native e
-            garantia de qualidade com rigor técnico. 600h+ de formação SENAC.
+            Engenharia de software ponta a ponta para sistemas web, APIs em tempo
+            real e mobile. Especialista em React, Next.js, TypeScript, Node.js,
+            PostgreSQL, Docker, Redis, Clean Architecture e garantia de qualidade (QA).
           </p>
 
           {/* CTAs */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '1.5rem', paddingTop: '0.5rem' }}>
-            <a className="btn-retro" href="/docs/Currículo - Rodrigo S. Feliciano.pdf" download="Currículo – Rodrigo S. Feliciano.pdf" id="btn-download-cv">
+            <a className="btn-retro" href="/docs/Currículo - Rodrigo S. Feliciano.pdf" download="Curriculo_Rodrigo_Souza_Feliciano.pdf" id="btn-download-cv">
               <span className="material-symbols-outlined">download</span>
               BAIXAR_CURRICULO.PDF
             </a>
